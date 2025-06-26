@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>Pipeline de Entrega Contínua - GCS</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Pipeline de Entrega Contínua</h1>
+        <p>Este site foi publicado automaticamente via GitHub Actions.</p>
+      </header>
+
+      <main>
+        <section class="card">
+          <h2>
+            <i class="fa-solid fa-rocket"></i>
+            Status do Pipeline
+          </h2>
+          <a href="https://github.com/arthurramires/gcs-handson/actions" target="_blank" rel="noopener noreferrer">
+            <img 
+              src="https://github.com/arthurramires/gcs-handson/actions/workflows/pipeline.yml/badge.svg" 
+              alt="Status do Pipeline de CI/CD" 
+              class="status-badge"
+            />
+          </a>
+        </section>
+
+        <section class="card">
+          <h2>
+            <i class="fa-solid fa-list-check"></i>
+            O Que Aconteceu Aqui?
+          </h2>
+          <ol>
+            <li>Um <code>git push</code> foi enviado para a branch <strong>main</strong>.</li>
+            <li>O GitHub Actions iniciou o workflow definido no projeto.</li>
+            <li>O job de <strong>Integração Contínua</strong> (testes e lint) foi executado com sucesso.</li>
+            <li>O job de <strong>Entrega Contínua</strong> construiu o site e o publicou automaticamente.</li>
+          </ol>
+        </section>
+
+        <section class="card">
+          <h2>
+            <i class="fa-solid fa-lightbulb"></i>
+            Próximo Passo
+          </h2>
+          <p>Experimente! Faça uma nova alteração em qualquer arquivo deste projeto, realize o commit e o push. Volte a esta página em alguns minutos e veja sua alteração no ar, sem nenhuma intervenção manual.</p>
+        </section>
+      </main>
+
+      <footer>
+        <p>Laboratório de GCS</p>
+      </footer>
+    </div>    
+  </body>
+</html>
